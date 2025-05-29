@@ -1,0 +1,214 @@
+@media (min-width: 900px) {
+    .services-section h2 {
+        font-size: 48px;
+    }
+
+    .overlay-text {
+        font-size: 30px; /* fixed size for large screens */
+    }
+
+    .service-box {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 500px) {
+    .services-section h2 {
+        font-size: 28px;
+    }
+
+    .overlay-text {
+        font-size: 16px;
+    }
+}
+
+body {
+    height: auto;
+    min-height: 300vh; /* good for scrolling space */
+    position: relative;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/waterfall.jpg') no-repeat center center/cover; /* Change to actual pictures */
+    opacity: 0.5; /* Adjust transparency: 0 = fully transparent, 1 = opaque */
+    z-index: -2;
+  }
+  
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Optional overlay for better text contrast */
+    z-index: -1;
+  }
+
+  .tab-bar {
+    position: fixed; /* Makes it stay on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Make sure it's above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title {
+    font-size: clamp(16px, 4vw, 30px);
+    font-family: 'Georgia', serif;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    height: 100vh; /* full screen height */
+    overflow: hidden;
+  }
+  
+  .main-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+    font-size: clamp(37px, 4vw, 60px);
+    font-family: 'Georgia', serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    z-index: 1;
+  }
+  
+  
+.description {
+    position: absolute;
+    top: 52%;
+    left: 30px;
+    font-size: clamp(16px, 4vw, 30px);
+    color: white;
+    z-index: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.main-title, .description {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+
+.bottom-wrapper {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }  
+
+
+.bottom-button {
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.services-section {
+    background-color: black;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.services-section p {
+    font-size: 18px;
+
+}
+.services-grid {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.service-box {
+    position: relative;
+    width: 90%; /* responsive width */
+    max-width: auto;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.service-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: clamp(16px, 4vw, 24px);
+    font-family: 'Georgia', serif;
+}
+
