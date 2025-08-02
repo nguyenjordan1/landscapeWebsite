@@ -8,12 +8,30 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="content-wrapper">
+
+		<div clss="home-section" id="home-id">
 		<header class="tab-bar">
-			<div class="logo">Logo</div> 
-			<div class="title">Green Valley Landscape</div>
-			<div class="menu">☰</div>
+			<div class="branding">
+				<div class="logo">Logo</div> 
+				<div class="title">Green Valley Landscape</div>
+			  </div>
+				  <nav class="main-nav">
+					<ul>
+					  <li><a href="#home-id">Home</a></li>
+					  <li><a href="#services-id">Services</a></li>
+					  <li><a href="#gallery-id">Gallery</a></li>
+					  <li><a href="#reviews-id">Reviews</a></li>
+					  <li><a href="#contact-id">Contact</a></li>
+					</ul>
+				  </nav>
+				</header>
+			  </div>
+			</div>
+			  
+			  
 		</header>
+
+		<div class="content-wrapper">
 
 		<div class="hero">
 
@@ -31,26 +49,626 @@
 
 		</div>
 
-		<section class="services-section">
+		<!-- <section class="services-section" id="services-id">
 			<h2>Green Valley Services</h2>
 			<p>We offer custom landscaping, patio designs, water features, and more.</p>
 			<div class="services-grid">
 				<div class="service-box">
-					<img src="images/patio.jpg" alt="Patio Design">
+					<img src="images/wetPatio1.jpeg" alt="Patios">
 					<div class="overlay-text">Patio Design</div>
 				</div>
 				<div class="service-box">
-					<img src="images/waterFeatures.jpg" alt="Water Features">
-					<div class="overlay-text">Water Features</div>
+					<img src="images/ourPond1.jpeg" alt="Ponds">
+					<div class="overlay-text">Ponds</div>
 				</div>
 				<div class="service-box">
-					<img src="images/landscapeDesign.jpg" alt="Custom Landscaping">
-					<div class="overlay-text">Custom Landscaping</div>
+					<img src="images/waterfall1.jpeg" alt="Waterfalls">
+					<div class="overlay-text">Waterfalls</div>
+				</div>
+				<div class="service-box">
+					<img src="images/ourHouse5.jpeg" alt="Fireplaces">
+					<div class="overlay-text">Fireplaces</div>
+				</div>
+				<div class="service-box">
+					<img src="images/secondWorkInProgress2.jpeg" alt="RetainingWalls">
+					<div class="overlay-text">Retaining Walls</div>
+				</div>
+				<div class="service-box">
+					<img src="images/walkway10.jpg" alt="Paths">
+					<div class="overlay-text">Paths</div>
+				</div>
+				<div class="service-box">
+					<img src="images/fence1.jpeg" alt="Waterfalls">
+					<div class="overlay-text">Fences</div>
+				</div>
+
+			</div>
+		</section> -->
+		<section class="services-section" id="services-id">
+			<h2>Our Services</h2>
+			<p>We offer a variety of landscaping services tailored to your needs.</p>
+		  
+			<div class="services-grid">
+		  
+			  <div class="service-box">
+				<img src="images/wetPatio1.jpeg" alt="Custom Patios">
+				<div class="service-description">
+				  <h3>Custom Patios</h3>
+				  <p>We design and build patios that elevate your outdoor space using natural materials and craftsmanship.</p>
+				</div>
+			  </div>
+		  
+			  <div class="service-box">
+				<img src="images/ourPond2.jpeg" alt="Ponds">
+				<div class="service-description">
+				  <h3>Ponds</h3>
+				  <p>Create serene water features to add tranquility and life to your garden or backyard.</p>
+				</div>
+			  </div>
+		  
+			  <div class="service-box">
+				<img src="images/waterfall1.jpeg" alt="Waterfalls">
+				<div class="service-description">
+				  <h3>Waterfalls</h3>
+				  <p>Design cascading waterfalls that bring natural beauty and soothing sound to your space.</p>
+				</div>
+			  </div>
+		  
+			  <div class="service-box">
+				<img src="images/ourHouse5.jpeg" alt="Fireplaces">
+				<div class="service-description">
+				  <h3>Fireplaces</h3>
+				  <p>Outdoor fireplaces that create warmth, ambiance, and a perfect gathering place.</p>
+				</div>
+			  </div>
+		  
+			  <div class="service-box">
+				<img src="images/secondWorkInProgress2.jpeg" alt="Retaining Walls">
+				<div class="service-description">
+				  <h3>Retaining Walls</h3>
+				  <p>Functional and stylish walls for structure and elevation in your landscape.</p>
+				</div>
+			  </div>
+		  
+			  <div class="service-box">
+				<img src="images/walkway10.jpg" alt="Paths">
+				<div class="service-description">
+				  <h3>Paths</h3>
+				  <p>Beautiful, functional walkways that connect and complement your outdoor features.</p>
+				</div>
+			  </div>
+		  
+			  <div class="service-box">
+				<img src="images/fence1.jpeg" alt="Fences and Gates">
+				<div class="service-description">
+				  <h3>Fences and Gates</h3>
+				  <p>Define your space with elegant fences and secure, stylish gates tailored to your property.</p>
+				</div>
+			  </div>
+		  
+			</div>
+		  </section>
+		  
+
+		<!-- <section class="gallery-section" id="gallery-id">
+			<h2>Gallery</h2>
+			<p>Past Projects</p>
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery1')">
+				<img src="images/patioBirdView.jpg" alt="Gallery Cover 1" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery1">Open</span>
+			</div>
+			  
+			  
+
+			<div class="gallery-grid" id="gallery1">
+				<div class="gallery-box">
+					<img src="images/patioBirdView.jpg" alt="Gallery Patio Bird View">
+				</div>
+				<div class="gallery-box">
+					<img src="images/circlularPatioUpclose.jpg" alt="Gallery Circular Patio Upclose">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway1.jpg" alt="Gallery Walkway1">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway2.jpg" alt="Gallery Walkway2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway3.jpg" alt="Gallery Walkway3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway4.jpg" alt="Gallery Walkway4">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway5.jpg" alt="Gallery Walkway5">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway6.jpg" alt="Gallery Walkway6">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway7.jpg" alt="Gallery Walkway7">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway8.jpg" alt="Gallery Walkway8">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway9.jpg" alt="Gallery Walkway9">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway10.jpg" alt="Gallery Walkway10">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway11.jpg" alt="Gallery Walkway11">
+				</div>
+				<div class="gallery-box">
+					<img src="images/walkway12.jpg" alt="Gallery Walkway12">
 				</div>
 			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery2')">
+				<img src="images/workInProgress1.JPG" alt="Gallery Cover 2" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery2">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery2">
+				<div class="gallery-box">
+					<img src="images/workInProgress2.JPG" alt="workInProgress2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/workInProgress3.JPG" alt="workInProgress3">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery3')">
+				<img src="images/wetPatio1.jpeg" alt="Gallery Cover 3" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery3">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery3">
+				<div class="gallery-box">
+					<img src="images/wetPatio2.jpeg" alt="wetPatio2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/wetPatio3.jpeg" alt="wetPatio3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/wetPatio4.jpeg" alt="wetPatio4">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery4')">
+				<img src="images/house1.jpeg" alt="Gallery Cover 4" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery4">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery4">
+				<div class="gallery-box">
+					<img src="images/house2.jpeg" alt="house2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/house3.jpeg" alt="house3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/house4.jpeg" alt="house4">
+				</div>
+				<div class="gallery-box">
+					<img src="images/house5.jpeg" alt="house5">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery5')">
+				<img src="images/ourHouse1.jpeg" alt="Gallery Cover 5" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery5">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery5">
+				<div class="gallery-box">
+					<img src="images/ourHouse2.jpeg" alt="ourHouse2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/ourHouse3.jpeg" alt="ourHouse3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/ourHouse4.jpeg" alt="ourHouse4">
+				</div>
+				<div class="gallery-box">
+					<img src="images/ourHouse5.jpeg" alt="ourHouse5">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery6')">
+				<img src="images/ourPond1.jpeg" alt="Gallery Cover 6" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery6">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery6">
+				<div class="gallery-box">
+					<img src="images/ourPond2.jpeg" alt="ourPond2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/ourPond3.jpeg" alt="ourPond3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/ourPond4.jpeg" alt="ourPond4">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery7')">
+				<img src="images/ourGrill1.jpeg" alt="Gallery Cover 7" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery7">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery7">
+				<div class="gallery-box">
+					<img src="images/ourGrill2.jpeg" alt="ourGrill2">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery8')">
+				<img src="images/rockPatio1.jpeg" alt="Gallery Cover 8" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery8">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery8">
+				<div class="gallery-box">
+					<img src="images/rockPatio2.jpeg" alt="rockPatio2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/rockPatio3.jpeg" alt="rockPatio3">
+				</div>
+			</div>
+
+			
+
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery9')">
+				<img src="images/secondHouse1.jpeg" alt="Gallery Cover 9" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery9">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery9">
+				<div class="gallery-box">
+					<img src="images/secondHouse2.jpeg" alt="secondHouse2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondHouse3.jpeg" alt="secondHouse3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondHouse4.jpeg" alt="secondHouse4">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondHouse5.jpeg" alt="secondHouse5">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondHouse6.jpeg" alt="secondHouse6">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondHouse7.jpeg" alt="secondHouse7">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondHouse8.jpeg" alt="secondHouse8">
+				</div>
+			</div>
+
+			
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery10')">
+				<img src="images/secondWorkInProgress1.jpeg" alt="Gallery Cover 10" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery10">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery10">
+				<div class="gallery-box">
+					<img src="images/secondWorkInProgress2.jpeg" alt="secondWorkInProgress2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondWorkInProgress4.jpeg" alt="secondWorkInProgress4">
+				</div>
+				<div class="gallery-box">
+					<img src="images/secondWorkInProgress5.jpeg" alt="secondWorkInProgress5">
+				</div>
+			</div>
+				
+			
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery11')">
+				<img src="images/deck1.jpeg" alt="Gallery Cover 11" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery11">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery11">
+				<div class="gallery-box">
+					<img src="images/deck2.jpeg" alt="deck2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/deck3.jpeg" alt="deck3">
+				</div>
+			</div>
+
+			
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery12')">
+				<img src="images/fence1.jpeg" alt="Gallery Cover 12" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery12">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery12">
+				<div class="gallery-box">
+					<img src="images/fence2.jpeg" alt="fence2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/fence3.jpeg" alt="fence3">
+				</div>
+			</div>
+
+			
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery13')">
+				<img src="images/rocks1.jpeg" alt="Gallery Cover 13" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery13">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery13">
+				<div class="gallery-box">
+					<img src="images/rocks2.jpeg" alt="rocks2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/rocks3.jpeg" alt="rocks3">
+				</div>
+			</div>
+
+			
+			<div class="gallery-toggle-container" onclick="toggleGallery('gallery14')">
+				<img src="images/waterfall1.jpeg" alt="Gallery Cover 14" class="gallery-cover" >
+				<span class="toggle-text" id="toggle-gallery14">Open</span>
+			</div>
+
+			<div class="gallery-grid" id="gallery14">
+				<div class="gallery-box">
+					<img src="images/waterfall2.jpeg" alt="waterfall2">
+				</div>
+				<div class="gallery-box">
+					<img src="images/waterfall3.jpeg" alt="waterfall3">
+				</div>
+				<div class="gallery-box">
+					<img src="images/waterfall4.jpeg" alt="waterfall4">
+				</div>
+			</div>
+
+
+
+		</section> -->
+
+		<section class="gallery-section" id="gallery-id">
+			<div class="gallery-header">
+			  <h2>Gallery</h2>
+			  <p>Explore our past projects categorized by type.</p>
+			</div>		  
+		  
+			<!-- Patios -->
+			<div class="gallery-group" id="gallery-patios">
+			  <h3>Patios</h3>
+			  <div class="gallery-grid">
+				<img src="images/patioBirdView.jpg" alt="Patio Bird View">
+				<img src="images/circlularPatioUpclose.jpg" alt="Circular Patio">
+				<img src="images/rockPatio1.jpeg" alt="Rock Patio 1">
+				<img src="images/rockPatio2.jpeg" alt="Rock Patio 2">
+				<img src="images/rockPatio3.jpeg" alt="Rock Patio 3">
+				<img src="images/wetPatio1.jpeg" alt="Wet Patio 1">
+				<img src="images/wetPatio2.jpeg" alt="Wet Patio 2">
+				<img src="images/wetPatio3.jpeg" alt="Wet Patio 3">
+				<img src="images/wetPatio4.jpeg" alt="Wet Patio 4">
+			  </div>
+			</div>
+		  
+			<!-- Ponds -->
+			<div class="gallery-group" id="gallery-ponds">
+			  <h3>Ponds</h3>
+			  <div class="gallery-grid">
+				<img src="images/ourPond1.jpeg" alt="Our Pond 1">
+				<img src="images/ourPond2.jpeg" alt="Our Pond 2">
+				<img src="images/ourPond3.jpeg" alt="Our Pond 3">
+				<img src="images/ourPond4.jpeg" alt="Our Pond 4">
+			  </div>
+			</div>
+		  
+			<!-- Waterfalls -->
+			<div class="gallery-group" id="gallery-waterfalls">
+			  <h3>Waterfalls</h3>
+			  <div class="gallery-grid">
+				<img src="images/waterfall1.jpeg" alt="Waterfall 1">
+				<img src="images/waterfall2.jpeg" alt="Waterfall 2">
+				<img src="images/waterfall3.jpeg" alt="Waterfall 3">
+				<img src="images/waterfall4.jpeg" alt="Waterfall 4">
+			  </div>
+			</div>
+		  
+			<!-- Fences -->
+			<div class="gallery-group" id="gallery-fences">
+			  <h3>Fences and Gates</h3>
+			  <div class="gallery-grid">
+				<img src="images/fence1.jpeg" alt="Fence 1">
+				<img src="images/fence2.jpeg" alt="Fence 2">
+				<img src="images/fence3.jpeg" alt="Fence 3">
+			  </div>
+			</div>
+		  
+			<!-- Decks -->
+			<div class="gallery-group" id="gallery-decks">
+			  <h3>Decks</h3>
+			  <div class="gallery-grid">
+				<img src="images/deck1.jpeg" alt="Deck 1">
+				<img src="images/deck2.jpeg" alt="Deck 2">
+				<img src="images/deck3.jpeg" alt="Deck 3">
+			  </div>
+			</div>
+		  
+			<!-- In Progress -->
+			<div class="gallery-group" id="gallery-progress">
+			  <h3>Work In Progress</h3>
+			  <div class="gallery-grid">
+				<img src="images/workInProgress1.JPG" alt="Work In Progress 1">
+				<img src="images/workInProgress2.JPG" alt="Work In Progress 2">
+				<img src="images/workInProgress3.JPG" alt="Work In Progress 3">
+				<img src="images/secondWorkInProgress1.jpeg" alt="Second Work In Progress 1">
+				<img src="images/secondWorkInProgress2.jpeg" alt="Second Work In Progress 2">
+				<img src="images/secondWorkInProgress4.jpeg" alt="Second Work In Progress 4">
+				<img src="images/secondWorkInProgress5.jpeg" alt="Second Work In Progress 5">
+			  </div>
+			</div>
+		  
+			<!-- Rocks -->
+			<div class="gallery-group" id="gallery-rocks">
+			  <h3>Rocks</h3>
+			  <div class="gallery-grid">
+				<img src="images/rocks1.jpeg" alt="Rocks 1">
+				<img src="images/rocks2.jpeg" alt="Rocks 2">
+				<img src="images/rocks3.jpeg" alt="Rocks 3">
+			  </div>
+			</div>
+		  
+			<!-- Grills -->
+			<div class="gallery-group" id="gallery-grills">
+			  <h3>Outdoor Kitchens & Grills</h3>
+			  <div class="gallery-grid">
+				<img src="images/ourGrill1.jpeg" alt="Grill 1">
+				<img src="images/ourGrill2.jpeg" alt="Grill 2">
+			  </div>
+			</div>
+		  
+			<!-- Houses -->
+			<div class="gallery-group" id="gallery-houses">
+			  <h3>Projects Around Homes</h3>
+			  <div class="gallery-grid">
+				<img src="images/house1.jpeg" alt="House 1">
+				<img src="images/house2.jpeg" alt="House 2">
+				<img src="images/house3.jpeg" alt="House 3">
+				<img src="images/house4.jpeg" alt="House 4">
+				<img src="images/house5.jpeg" alt="House 5">
+				<img src="images/ourHouse1.jpeg" alt="Our House 1">
+				<img src="images/ourHouse2.jpeg" alt="Our House 2">
+				<img src="images/ourHouse3.jpeg" alt="Our House 3">
+				<img src="images/ourHouse4.jpeg" alt="Our House 4">
+				<img src="images/ourHouse5.jpeg" alt="Our House 5">
+				<img src="images/secondHouse1.jpeg" alt="Second House 1">
+				<img src="images/secondHouse2.jpeg" alt="Second House 2">
+				<img src="images/secondHouse3.jpeg" alt="Second House 3">
+				<img src="images/secondHouse4.jpeg" alt="Second House 4">
+				<img src="images/secondHouse5.jpeg" alt="Second House 5">
+				<img src="images/secondHouse6.jpeg" alt="Second House 6">
+				<img src="images/secondHouse7.jpeg" alt="Second House 7">
+				<img src="images/secondHouse8.jpeg" alt="Second House 8">
+			  </div>
+			</div>
+		  </section>
+		  
+		  
+
+		<section class="reviews-section" id="reviews-id">
+			<h2>Reviews</h2>
+			<p>What our customers have to say</p>
+			<div class="reviews-grid">
+				<div class="review-card">
+					<p class="stars">★★★★★</p>
+					<p class="quote">Alex and his crew did a very good job in landcaping the front of my house in North Boulder in 2018. Working around the existing flowering plum tree, they created an aesthetic arrangement of Bluff Flagstone rocks, surrounded by purple and yellow perennials and tall grasses. The following season (2019), as per agrement, they replaced a couple of plants that didn't make it, so I was pleased with their work. I recommend them highly.</p>
+					<p class="author">Joan Hall</p>
+				</div>
+
+				<div class="review-card">
+					<p class="stars">★★★★★</p>
+					<p class="quote">Alex (owner of Green Valley) landscaped my yard a decade ago and it was time to do a facelift - thorough clean up, pruning, sprinkler repair, and overall rejuvenation of the gardens. Every experience I've had with Alex and his crew has been top notch. They are a hard-working, pleasant, and capable crew who left my yard looking better than I ever could hope to do myself. I'll certainly be calling Alex again next spring.</p>
+					<p class="author">Ann C</p>
+				</div>
+
+				<div class="review-card">
+					<p class="stars">★★★★★</p>
+					<p class="quote">Alex and his people did a beautiful job remaking my back yard!</p>
+					<p class="author">Roberta Mantione</p>
+				</div>
+
+			</div>
 		</section>
+
+		<section class="contact-section" id="contact-id">
+			<h2>Contact Us!</h2>
+		  
+			<div class="contact-grid">
+			  
+				<div class="contact-card">
+					<h3>Our Location</h3>
+					<iframe 
+					  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.2158930725087!2d-105.27054552423692!3d40.0150267714934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bec304b8f3933%3A0xe68b51dca9e3607e!2sBoulder%2C%20CO!5e0!3m2!1sen!2sus!4v1717700000000!5m2!1sen!2sus" 
+					  width="100%" 
+					  height="200" 
+					  style="border:0; border-radius: 8px;" 
+					  allowfullscreen="" 
+					  loading="lazy" >
+					</iframe>
+					<p>123 Green Valley Lane<br>Boulder, CO 80301</p>
+				  </div>
+				  
+		  
+			  <div class="contact-card">
+				<h3>Call Us</h3>
+				<p><a href="tel:+17204005466">📞 720-400-5466</a></p>
+			  </div>
+		  
+			  <div class="contact-card">
+				<h3>Email Us</h3>
+				<p><a href="mailto:justjdog@gmail.com">📧 justjdog@gmail.com</a></p>
+			  </div>
+		  
+			</div>
+		</section>
+		  
+
 
 
 	</div>
 </body>
 </html>
+
+<!-- <script>
+	function toggleGallery(id) {
+	  const gallery = document.getElementById(id);
+	  const toggleText = document.getElementById('toggle-' + id);
+  
+	  if (gallery.classList.contains('open')) {
+		gallery.classList.remove('open');
+		toggleText.textContent = 'Open';
+	  } else {
+		gallery.classList.add('open');
+		toggleText.textContent = 'Close';
+	  }
+	}
+  </script> -->
+
+
+<!-- <script>
+	const menuButton = document.querySelector('.menu');
+	const dropdownMenu = document.getElementById('dropdownMenu');
+  
+	menuButton.addEventListener('click', () => {
+	  dropdownMenu.style.display = 
+		dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
+	});
+  
+	// Optional: Close menu when clicking a link
+	dropdownMenu.querySelectorAll('a').forEach(link => {
+	  link.addEventListener('click', () => {
+		dropdownMenu.style.display = 'none';
+	  });
+	});
+	</script> -->
+  
+  
